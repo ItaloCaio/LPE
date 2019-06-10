@@ -1,19 +1,21 @@
 {
-  "name": "operacionar",
+  "name": "multiroom_chat",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ItaloCaio/operacionar.git"
-  },
-  "author": "",
+  "author": "Jorge",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ItaloCaio/operacionar/issues"
-  },
-  "homepage": "https://github.com/ItaloCaio/operacionar#readme"
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "consign": "^0.1.2",
+    "consolidate": "^0.15.1",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "express-validator": "^2.20.8",
+    "path": "^0.12.7",
+    "swig": "^1.4.2"
+  }
 }
